@@ -1,62 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Aye Chihuahua Salsa Website</title>
 
-  <title>Aye Chihuahua Salsa Website</title>
+    <!-- react-native-web recommended style reset -->
+    <style id="expo-reset">
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        overflow: hidden;
+      }
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+    </style>
 
-  <!-- Favicon -->
-  <link rel="icon" href="/rork-aye-chihuahua-salsa-website/favicon.ico" />
+    <link
+      rel="icon"
+      href="/rork-aye-chihuahua-salsa-website/favicon.ico"
+    />
+  </head>
 
-  <!-- Expo Manifest -->
-  <link rel="manifest" href="/rork-aye-chihuahua-salsa-website/manifest.json" />
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
 
-  <!-- iOS PWA -->
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-  <link rel="apple-touch-icon" href="/rork-aye-chihuahua-salsa-website/assets/images/icon.png" />
+    <div id="root"></div>
 
-  <!-- RN Web recommended reset -->
-  <style id="expo-reset">
-    html,
-    body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    }
-    body {
-      overflow: hidden;
-      background: #ffffff;
-    }
-    #root {
-      display: flex;
-      height: 100%;
-      flex: 1;
-    }
-  </style>
-
-  <!-- Prevent 404 errors by ensuring relative paths work inside subfolder -->
-  <base href="/rork-aye-chihuahua-salsa-website/">
-
-</head>
-
-<body>
-
-  <!-- JS disabled fallback -->
-  <noscript>
-    <strong>This app requires JavaScript to run. Please enable JavaScript in your browser.</strong>
-  </noscript>
-
-  <!-- Where the Expo App loads -->
-  <div id="root"></div>
-
-  <!-- EXPO WEB JS BUNDLE (This MUST MATCH the real filename in _expo/static/js/web/) -->
-  <script type="module" src="/rork-aye-chihuahua-salsa-website/_expo/static/js/web/entry-98bd60846f39b5b1171c37aa0ae425e7.js"></script>
-
-</body>
-
+    <!-- ✅ The ONLY correct JavaScript bundle for your build -->
+    <script
+      type="module"
+      src="/rork-aye-chihuahua-salsa-website/_expo/static/js/web/entry-6c92b68163e06624212938d2c56cbf1e.js"
+    ></script>
+  </body>
 </html>
-
